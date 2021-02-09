@@ -1,0 +1,33 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.header-image{
+    width: auto;
+    transition: max-width 1s, min-width 1s;
+}
+
+.header-image-expanded{
+    max-width: 250px;
+    min-width: 230px;
+}
+
+.header-image-contracted{
+    max-width: 60px;
+    min-width: 40px;
+}
+
+.header-text{
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 5px 0px 15px 0px;
+    transition: font-size 1s;
+}
+.header-text-expanded{
+    font-size: 36px;
+}
+.header-text-contracted{
+    font-size: 12px;
+}
