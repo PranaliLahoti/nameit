@@ -1,4 +1,3 @@
-# Getting Started with Create React App
+# A React Project - Name It
 
-"Name It" is a simple application build using React that allows you to search for a cool name for your next project/startup.
-
+A simple application build using react that allows to search cool names for projects/startups.
